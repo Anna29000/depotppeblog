@@ -14,7 +14,7 @@ function getBillets(){
 
 function getBdd(){
     $bdd = new PDO('mysql:host=localhost;dbname=bddBlog;charset=utf8',
-        'root', 'root');
+        'root', 'root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     return  $bdd;
     
 }
