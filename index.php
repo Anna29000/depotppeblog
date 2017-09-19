@@ -7,7 +7,7 @@
                         . ' BIL_TITRE as titre, BIL_CONTENU as contenu from T_BILLET'
                         . ' order by BIL_ID desc');
                 foreach ($billets as $billet):
-                    ?>
+                   ?>
 
 <!-- AFFICHAGE -->
 <!doctype html>
